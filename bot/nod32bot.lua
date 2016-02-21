@@ -231,7 +231,6 @@ function create_config( )
     "location",
     "plugins",
     "google",
-    "left",
     "spm",
     "chatbot",
     "version",
