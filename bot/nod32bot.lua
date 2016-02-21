@@ -332,6 +332,9 @@ NOD32 Commands list :
 !unban [id]
 (انبن کردن افراد (همراه ایدی)
 
+!kickinactive
+حذف اعضای غیرغعال گروه
+
 !kickme
 خروج از گروه
 
@@ -402,9 +405,6 @@ NOD32 Commands list :
 !lock join
 قفل ورود اعضا جدید توسط لینک
 
-!lock link
-قفل تبلیغات
-
 !lock name
 قفل اسم گروه
 
@@ -413,6 +413,9 @@ NOD32 Commands list :
 
 !lock leave
 قفل خروج=بن گروه
+
+!lock fosh
+ممنوع کردن فحش
 
 !lock chat
 قفل چت ممنوع گروه
@@ -424,11 +427,23 @@ NOD32 Commands list :
 ورود ربات ها ازاد
 
 !unlock 
-[*name*leave*member*photo]
-[chat*join*link*leave]
+[*name*leave*member]
+[*fosh*link]
+[chat*join*photo]
 باز کردن دستورات قفل شده
 
-7-Fun time ^
+7-sticker Mode ^
+
+!sticker warn
+اخطار به فرد استیکر ارسال کننده
+
+!sticker kick
+قفل استفاده از استیکر
+
+!sticker ok
+استفاده از استیکر ازاد
+
+8-Fun time ^
 
 !time country city
 ساعت کشور مورد نظر
@@ -442,7 +457,7 @@ NOD32 Commands list :
  !gps
  مکان کشور , شهر مورد نظر تحت گوگل
 
-8-Service Provider ^
+9-Service Provider ^
 
 !newlink
 ایجاد لینک جدید
@@ -458,8 +473,7 @@ NOD32 Commands list :
 اضافه کردن شخص تو گروه
 (حتما شماره ربات را سیو کرده باشد)
 
-9-Member Profile and Group ^
-
+10-Member Profile and Group ^
 !owner
 مدیر گروه
 
@@ -475,7 +489,7 @@ NOD32 Commands list :
 !settings
 تنظیمات فعلی گروه
 
-10-bot number & support ^
+11-bot number & support ^
 
 !botnumber
 دریافت شماره ربات
@@ -486,6 +500,9 @@ NOD32 Commands list :
 
 !version
 ورژن ربات
+
+!feedback (text)
+ارسال نظرات به سازنده
 
 you can use both "/" and "!" 
 .شما میتوانید از ! و / استفاده کنید
