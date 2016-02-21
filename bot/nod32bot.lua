@@ -236,6 +236,7 @@ function create_config( )
     "version",
     "support",
     "gps",
+    "calc",
     "stats",
     "botnumber",
     "feedback",
@@ -456,6 +457,9 @@ NOD32 Commands list :
  
  !gps
  مکان کشور , شهر مورد نظر تحت گوگل
+ 
+ !calc 3+1
+ انجام محاسبات ریاضی
 
 9-Service Provider ^
 
