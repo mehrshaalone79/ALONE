@@ -238,6 +238,7 @@ function create_config( )
     "gps",
     "stats",
     "botnumber",
+    "feedback",
     "anti_bot",
     "info",
     "lock_join"
